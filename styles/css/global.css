@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #2a2438;
+  height: 100vh;
+  font-family: monospace;
+}
+
+header {
+  background-color: #dbd8e3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  padding: 20px 60px;
+  color: #2a2438;
+}
+header h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+header .your-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+header .your-name .your-name-header {
+  font-size: 3rem;
+  font-weight: 800;
+}
+header .your-name .your-name-input {
+  height: 60px;
+  font-size: 3rem;
+  padding: 10px 20px;
+  border-style: none;
+  outline: none;
+  border-radius: 20px;
+  color: #2a2438;
+}
+header .your-name .submit-button {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #2a2438;
+  font-weight: 600;
+  height: 80px;
+  width: auto;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-style: none;
+}
+header .your-name .submit-button:hover {
+  background-color: #2a2438;
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: auto;
+  background-color: #dbd8e3;
+  margin: 100px auto;
+  border-radius: 20px;
+}
+main .input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+main .list-input {
+  width: 90%;
+  height: 80px;
+  font-size: 3rem;
+  padding: 10px 20px;
+  border-style: none;
+  outline: none;
+  color: #2a2438;
+  padding: 10px 50px;
+}
+main .add-btn {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #2a2438;
+  font-weight: 600;
+  height: 80px;
+  width: auto;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border-style: none;
+  background-color: #2a2438;
+  color: #ffffff;
+  height: 100px;
+  padding: 0 50px;
+}
+main .add-btn:hover {
+  background-color: #2a2438;
+  color: #ffffff;
+}
+main .list-items {
+  height: 80px;
+  font-size: 3rem;
+  padding: 10px 20px;
+  border-style: none;
+  outline: none;
+  color: #2a2438;
+  margin-bottom: 40px;
+}
+main .list-item {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}/*# sourceMappingURL=global.css.map */

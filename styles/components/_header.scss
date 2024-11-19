@@ -1,0 +1,37 @@
+body{
+    background-color: $body;
+    height: 100vh;
+    font-family: monospace;
+}
+
+header{
+    background-color: $header;
+    @include flexCenter(space-between, center);
+    height: 10%;
+    padding: 20px 60px;
+    color: $headerText;
+
+    h1{
+        font-size: $logo;
+        font-weight: $headerWeight; 
+    }
+
+    .your-name{
+        @include flexCenter();
+        gap: 30px;
+
+        .your-name-header{
+            font-size: $yourName;
+            font-weight: $headerWeight;
+        }
+
+        .your-name-input{
+            height: 60px;
+            @include inputStyle;
+        }
+        
+        .submit-button{
+            @include submitAdd;
+        }
+    }
+}

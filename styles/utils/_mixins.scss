@@ -1,0 +1,31 @@
+@mixin flexCenter($justify: center, $align: center){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin submitAdd($borderRadius: 20px){
+    cursor: pointer;
+    background-color: $btnBackground;
+    color: $btnText;
+    font-weight: $btnWeight;
+    height: 80px;
+    width: auto;
+    font-size: $headerButton;
+    padding: 10px 20px;
+    border-radius: $borderRadius;
+    border-style: none;
+    &:hover{
+        background-color: $btnBackgroundHover;
+        color: $btnTextHover;
+    }
+}
+
+@mixin inputStyle($borderRadius: 20px){
+    font-size: $inputText;
+    padding: 10px 20px;
+    border-style: none;
+    outline: none;
+    border-radius: $borderRadius;
+    color: $inputTextColor;
+}

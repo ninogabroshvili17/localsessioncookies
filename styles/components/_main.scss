@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 70%;
+    height: auto;
+    background-color: $listBackground;
+    margin: 100px auto;
+    border-radius: 20px;
+
+    .input-section{
+        @include flexCenter(center, center);
+        padding: 40px;
+    }
+
+    .list-input{
+        width: 90%;
+        height: 80px;
+        @include inputStyle(null);
+        padding: 10px 50px;
+    }
+
+    .add-btn{
+        @include submitAdd(null);
+        background-color: #2a2438;
+        color: $btnTextHover;
+        height: 100px;
+        padding: 0 50px;
+    }
+
+    .list-items{
+        height: 80px;
+        @include inputStyle(null);
+        margin-bottom: 40px;
+    }
+
+    .list-item{    
+        background-color: $toDoDistBackground;
+        @include flexCenter(space-between, center);
+        padding: 10px 40px;
+    }
+}
